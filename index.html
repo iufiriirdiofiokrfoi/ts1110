@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <!-- 連結 jQuery Mobile -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- themes -->
+    <link rel="stylesheet" href="themes/aaa.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- 字型 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Pacifico&display=swap" rel="stylesheet">
+    <!-- favicon 網站小圖示 -->
+    <link rel="shortcut icon" href="images/favicon1.png" />
+    <link rel="bookmark" href="images/favicon1.png" />
+    <title>1013</title>
+</head>
+
+
+
+<body>
+    <!--首頁-->
+    <div data-role="page" id="page00">
+
+        <div data-role="header">
+
+            <h1>伊美奇巧克力</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+
+            <div class="bigcover">
+                <div class="bg-cover">
+                    <div class="bg-text">人生像是一盒巧克力<br>來伊美奇體驗各式人生吧！</div>
+                    <div class="bg-img"><img src="images/dark.jpg" alt=""></div>
+                </div>
+                <div class="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4NxZZ_15CNw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+                       
+            
+
+            <ul data-role="listview" data-inset="true">
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+                    <div data-role="collapsible">
+                        <h3>巧克力的歷史</h3>
+                        <p>它的原產地是墨西哥﹐主原料是可可豆</p>
+                        <p>1526年﹐西班牙探險家柯特茲帶回西班牙﹐獻給當時的國王﹐歐洲人視它為迷藥﹐掀起 一股狂潮﹐</p>
+                        <p>到1828年﹐由荷蘭的凡苛添《Van Houten》想到將其脂肪除去2/3﹐做成容易飲用的可可亞﹐19世紀末時﹐瑞士的D.M比德﹐</p>
+                        <p>發明在巧克力中加入牛奶﹐味道更好﹐就是今日巧克力的雛形了。</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>巧克力的種類</h3>
+                        <p>因為巧克力在製造過程中所加進的成分不同,也造就了它多變的面貌。目前市面上的巧克力,依成分大約可分為：</p>
+                        <p>黑巧克力,(dark chocolate或純巧克力)－乳質含量少於12%</p>
+                        <p>牛奶巧克力(milk chocolate)－至少含10%的可可漿及至少12%的乳質;chocolate compound－不含可可脂的巧克力</p>
+                        <p>白巧克力(white chocolate) －不含可可粉的巧克力。</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>巧克力的營養價值</h3>
+                        <h4>巧克力的熱量</h4>
+                        <p>以牛奶巧克力為例﹐100g相當於500卡﹐是登山﹐也是太空人在太空飛行中必須要的食品﹐它所含的脂肪與動物性食物所含的脂肪不同﹐</p>
+                        <p>約在25℃ ~28℃時就會溶化﹐好巧克力是入口即化﹐口感柔滑﹐不會有油膩的感覺。</p>
+                        <h4>巧克力可能是抗老化新幫手</h4>
+                        <p>去年日本曾經發表巧克力含有很多的抗氧化物的文章, 說明巧克力含有和綠茶相似的各種抗氧化物, </p>
+                        <p>包括epicatechin, catechin, 與其它的多酚類, 由許多茶類的研究中知道這些物質對於抗氧化的特</p>
+                        <p>性可能與多喝茶能防癌防心血管老化這些流行病學的研究結果有關, 因此推論, 巧克力應該也和綠茶一樣, 具有這些防癌的功效。</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>巧克力的保存方法</h3>
+                        <p>巧克力保存溫度最好在15oC~20oC，巧克力買回家後，能立即實用完畢最好，若有剩下，放在陰涼處即可。</p>
+                        <p>若是室溫真的很高，那就只好放進冰箱中保存，可千萬不要放冷凍庫中，巧克力會變得太硬，表面霧狀情況會更嚴重，</p>
+                        <p>因此放置在冷藏庫中即可。從冰箱拿出的巧克力不要立即食用，讓它在室溫下回溫一下在食用較為合適。</p>
+                        <p>巧克力的保存期限多為一年左右，但隨著內容物的不同，時間會有所增減。尤其是添加鮮奶(或牛奶成份較高)、</p>
+                        <p>榛果類的巧克力產品，因為牛奶及榛果的保存期限不長，相對縮短了巧克力的保存期間，</p>
+                        <p>購買時不但要注意製造日期，回家保存時也要記得越快吃完越好。</p>
+                    </div>
+                </div>
+            </ul>    
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page01" data-icon="bullets" data-transition="fade">關於伊美奇</a></li>
+                    <li><a href="#page02" data-icon="bullets" data-transition="slideup">巧克力即享</a></li>
+                    <li><a href="#aboutus" data-icon="bullets" data-transition="slide">關於我們</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">門市據點</a></li>
+                </ul>
+            </div>
+            <div class="make">2020 小柯 WZU</div>
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+     <!--關於伊美奇-->
+     <div data-role="page" id="page01">
+
+        <div data-role="header">
+            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>關於伊美奇</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+
+            <div class="info">
+                <h2><b>簡介</b></h2>
+                <p><b>
+                    伊美奇是最新創立的巧克力專賣店鋪，由一群充滿熱血的大學年輕人所經營。<br>
+                    <br>
+                    在這裡，我們提供最高級精緻的美味巧克力與舒適的環境，你可以在網站上直接訂購巧克力，<br>
+                    <br>
+                    我們會在最短的時間裡送貨到府而且全網免運費。</b></p>
+            </div>
+            <div class="info">
+                <h2>發展沿革</h2>
+                <p><b>
+                    伊美奇成立於2018年的冬季，取名融合了Maker製造與key鑰匙，最終加上創辦人的單名「伊」而出。<br>
+                    <br>
+                    　　起初，伊美奇只是兩名熱愛巧克力的大學生所天馬行空的夢想，但在因緣際會下，他們嘗試將夢想化為實，<br>
+                    <br>
+                    而在2014年的時候，兩人第一次嘗試集資創設店鋪。<br>
+                    <br>
+                    　　集資的結果不如預期，兩人在失敗後見識了社會的殘酷，然而卻更激發出他們對自身的要求，進而在201那年的巧克力<br>
+                    <br>
+                    展覽會上，靠著手作巧克力的醇厚風味，吸引了眾人的目光，最後順利獲得業主們投資。<br>
+                    <br>
+                    　　經過了兩年的準備期，在2018年末，伊美奇巧克力專賣店成功在北中南開設立了三家實體店面，<br>
+                    <br>
+                    並在一個月內業績急速成長，良好的顧客口碑使得年輕人之中一度吹起一股搶購的風潮。<br>
+                    <br>
+                    　　如今伊美奇穩定成長，也開設了網購業務，今後我們將持續開發各種創新口味的巧克力，<br>
+                    <br>
+                    勢必為支持我們的顧客，帶來不斷的驚喜。</b></p>
+            </div>
+            <div class="info">
+                <h2>創業理念</h2>
+                <p><b>
+                    伊美奇的創辦人熱愛創新與挑戰，也因此，伊美奇的商品總是充滿著不一樣的驚喜，豐富多元。<br>
+                    <br>
+                    精緻與美味是我們的堅持，能以最低的價格帶給顧客們最實惠的享受更是我們的喜悅。<br>
+                    <br>
+                    伊美奇希望我們自身的存在能激發並帶領所有熱愛巧克力的年輕人，去深入巧克力的領域，並且最終能享受己製 作的過程。</b></p>
+            </div>
+            <div class="info">
+                <h2>公司特色</h2>
+                <p><b>
+                    穩定的品質是我們的堅持<br>
+                    <br>
+                    伊美奇用最嚴格的標準挑選世界各國的可可豆原料，並和各廠商建立長期穩定的合作關係，不怕缺貨。<br>
+                    <br>
+                    即使交貨延遲，我們的物流倉管也足夠應付暫時的消耗。<br>
+                    <br>
+                    豐富的產品開發<br>
+                    <br>
+                    在這裡，你可以找到經典的黑白巧克力風味或是特殊的多風味手作產品，只要你想得到的，我們都有。<br>
+                    <br>
+                    店內員工皆是對巧克力充滿熱情的人，員工的建議與新產品都在會議上被認真的看待，<br>
+                    <br>
+                    任何顧客的反饋與分享我們都謹記在心，每一刻都在邁向下個里程碑。</b></p>
+            </div>
+            <div class="info">
+                <h2>創業理念</h2>
+                <p><b>
+                    伊美奇的創辦人熱愛創新與挑戰，也因此，伊美奇的商品總是充滿著不一樣的驚喜，豐富多元。<br>
+                    <br>
+                    精緻與美味是我們的堅持，能以最低的價格帶給顧客們最實惠的享受更是我們的喜悅。<br>
+                    <br>
+                    伊美奇希望我們自身的存在能激發並帶領所有熱愛巧克力的年輕人，去深入巧克力的領域，並且最終能享受己製 作的過程。</b></p>
+            </div>
+            <div id="greenplan">
+                <p>
+                    <b>服務宗旨：</b><br>
+                    <br>精緻、高品質、穩定<br>
+                    <br>平實的價格、奢華的享受。
+                </p>
+            </div>
+        
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+           
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="fade">回首頁</a></li>
+                    <li><a href="#page02" data-icon="bullets" data-transition="slideup">巧克力即享</a></li>
+                    <li><a href="#aboutus" data-icon="bullets" data-transition="slide">關於我們</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">門市據點</a></li>
+                </ul>
+            </div>
+            <div class="make">2020 小柯 WZU</div>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    <!--巧克力即享-->
+    <div data-role="page" id="page02">
+        
+        <div data-role="header">
+            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>巧克力即享</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content" >
+            <p class="arinfo"> </p>
+            <div class="content2">
+            <div class="conimg">
+                <div class="img">
+                    <a data-fancybox="gallery" href="images/Boss's favorite.jpg"><img src="images/Boss's favorite.jpg"
+                            alt="" height="250" width="200" />
+                    </a>
+
+                </div>
+                <div class="text">
+                    <h3>店長推薦 Boss's favorite</h3>
+                    <p>
+                        "I think he have been crazy!He eats the same chocolates when everytime I see him." <br>
+                        Joe,the formeremployee said.
+                    </p>
+                </div>
+            </div>
+            <div class="conimg">
+                <div class="img">
+                    <a data-fancybox="gallery" href="images/Popular.jpg"><img src="images/Popular.jpg" alt=""
+                            height="250" width="200" /></a>
+                </div>
+                <div class="text">
+                    <h3>人氣熱銷 Popular</h3>
+                    <p>
+                        There are Top 3 commodities here. <br>
+                        Check it  to see what do other people like.
+                    </p>
+                </div>
+            </div>
+            <div class="conimg">
+                <div class="img8">
+                    <a data-fancybox="gallery" href="images/Newestdd.jpg"><img src="images/Newestdd.jpg" alt=""
+                            height="250" width="200" /></a>
+                </div>
+                <div class="text">
+                    <h3>最新產品 Newest</h3>
+                    <p>
+                        All the newest goods are right here. <br>
+                        Keep yourself following this page so you can accept the newest information.
+                    </p>
+                </div>
+            </div>
+            <div class="conimg">
+                <div class="img">
+                    <a data-fancybox="gallery" href="images/Black Chocolatedd.jpg"><img
+                            src="images/Black Chocolatedd.jpg" alt="" height="250" width="200" /></a>
+                </div>
+                <div class="text">
+                    <h3>黑巧克力 Black Chocolate</h3>
+                    <p>
+                        We can make sure the cocoa in chocolate we sell is higher than 80%. <br>
+                        Just better than others.
+                </div>
+            </div>
+            <div class="conimg">
+                <div class="img">
+                    <a data-fancybox="gallery" href="images/Milk Chocolatedd.jpg"><img src="images/Milk Chocolatedd.jpg"
+                            alt="" height="250" width="200" /></a>
+                </div>
+                <div class="text">
+                    <h3>牛奶巧克力 Milk Chocolate</h3>
+                    <p>
+                        Milk with chocolate? <br>
+                        Sounds nice, isn't it?
+                    </p>
+                </div>
+            </div>
+            <div class="conimg">
+                <div class="img">
+                    <a data-fancybox="gallery" href="images/Nut Chocolatedd.jpg"><img src="images/Nut Chocolatedd.jpg"
+                            alt="" height="250" width="200" /></a>
+                </div>
+                <div class="text">
+                    <h3>堅果巧克力 Nut Chocolate</h3>
+                    <p>
+                        I have chocolate...<br>
+                        I have nuts...  <br>
+                        Bang! <br>
+                        Nut chocolate!
+                    </p>
+                </div>
+            </div>
+        </div>
+                       
+        </div><!-- /content -->
+        
+        <div data-role="footer" data-position="fixed">
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="fade">回首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets" data-transition="slideup">關於伊美奇</a></li>
+                    <li><a href="#aboutus" data-icon="bullets" data-transition="slide">關於我們</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">門市據點</a></li>
+                </ul>
+            </div>
+            <div class="make">2020 小柯 WZU</div>
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+    <!--關於我們-->
+    <div data-role="page" id="aboutus" data-dialog="true">
+        
+        <div data-role="header">
+            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>關於我們</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+
+            <h2>創業理念</h2>
+            <p>伊美奇的創辦人熱愛創新與挑戰，也因此，伊美奇的商品總是充滿著不一樣的驚喜，豐富多元。<br>
+                <br>
+                精緻與美味是我們的堅持，能以最低的價格帶給顧客們最實惠的享受更是我們的喜悅。<br>
+                <br>
+                伊美奇希望我們自身的存在能激發並帶領所有熱愛巧克力的年輕人，去深入巧克力的領域，並且最終能享受己製 作的過程。
+            </p>
+            
+
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="fade">回首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets" data-transition="slideup">關於伊美奇</a></li>
+                    <li><a href="#page02" data-icon="bullets" data-transition="slide">巧克力即享</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">門市據點</a></li>
+                </ul>
+            </div>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+    <!--門市據點-->
+    <div data-role="page" id="page04">
+        
+        <div data-role="header">
+            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>門市據點</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+
+            <div class="tai">
+                <div class="tai2">
+                    <p>台北</p>
+                    <img src="images/Taipei.png" alt=""  width="347">
+                </div>
+                <div class="tai2">
+                    
+                    <div class="aa">
+                        <p>台北<br>天龍門市 <img src="images/pd.png" alt="" height="30" width="36">台北市士林區天母北路一段1號</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d57822.73840513151!2d121.46824416438125!3d25.07066150245195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5aSp6b6N6ZaA5biCLeWPsOWMl-W4guWjq-ael-WNgOWkqeavjeWMl-i3r-S4gOautTHomZ8!5e0!3m2!1szh-TW!2stw!4v1592397824300!5m2!1szh-TW!2stw"
+                        width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+            <p class="arinfo"> </p>
+            <div class="tai">
+                <div class="tai2">
+                    <p>台中</p>
+                    <img src="images/Tai chung.png" alt=""  width="347">
+                </div>
+                <div class="tai2">
+                    <div class="aa">
+                    <p>台中<br>北屯門市<img src="images/pd.png" alt="" height="30" width="36">台中市北屯區北屯路444號</p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.7659435895152!2d120.69919031498947!3d24.179939984379395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917f2b2e74be5%3A0x954287f6b8e986c2!2zNDA25Y-w5Lit5biC5YyX5bGv5Y2A5YyX5bGv6LevNDQ06Jmf!5e0!3m2!1szh-TW!2stw!4v1592481306624!5m2!1szh-TW!2stw" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <p class="arinfo"> </p>
+            <div class="tai">
+                <div class="tai2">
+                    <p>台南</p>
+                    <img src="images/Tainan.png" alt=""  width="347">
+                </div>
+                <div class="tai2">
+                    <div class="aa">
+                    <P>台南<br>全糖門市<img src="images/pd.png" alt="" height="30" width="36">台南市東區崇德路100號</P>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.1868876513145!2d120.21628851473632!3d22.980154184974527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e769cef573703%3A0x28bdb092083320d!2zNzAx5Y-w5Y2X5biC5p2x5Y2A5bSH5b636LevMTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1592481666797!5m2!1szh-TW!2stw" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+        </div><!-- /content -->
+       
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="fade">回首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets" data-transition="slideup">關於伊美奇</a></li>
+                    <li><a href="#page02" data-icon="bullets" data-transition="slide">巧克力即享</a></li>
+                    <li><a href="#aboutus" data-icon="bullets" data-transition="slidedown">關於我們</a></li>
+                </ul>
+            </div>
+            <div class="make">2020 小柯 WZU</div>
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+</body>
+</html>

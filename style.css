@@ -1,0 +1,255 @@
+/* 字型 */
+.ui-body-c, .ui-header .ui-footer {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.ui-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d6c1a9;
+}
+
+
+.ui-navbar {
+    width: 100%;
+}
+
+.bigcover {
+    width: 100%;
+}
+
+.bg-cover {
+    width: 100%;
+    position: relative;
+}
+
+.bg-text {
+    position: absolute;
+    top: 1em;
+    right: 10px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 3px black;
+}
+
+.bg-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bg-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* 首頁 */
+
+
+.video-wrapper{
+    margin-top: 2em;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+
+.conimg {
+    width: 32%;
+}
+.conimg img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+.img{
+   
+    /* overflow: hidden; */
+}
+.conimg h3 {
+    color: steelblue;
+}
+/* 共同內文設定 */
+.content h2 {
+    text-align: center;
+    color: rgb(139, 96, 71);
+}
+.content {
+    max-width: 900px;
+    margin: auto;
+    text-align:justify; /*水平置中對齊-左右對齊*/
+    
+}
+
+#page02 .ui-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+.ui-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+}
+
+.darkimg {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+#page04 > .ui-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#aboutus > .ui-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ui-listview {
+    width: 100%;
+}
+
+ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    width: 100%;
+}
+
+.conimg {
+    
+    max-width: 100%;
+}
+.conimg img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.info{
+    text-align: center;
+}
+.info p{
+    color: rgb(158, 125, 103);
+}
+.info h2 {
+    text-align: center;
+    color: rgb(153, 100, 22);
+}
+.arinfo {
+    line-height: 1em;
+    padding-bottom: 15px;
+    border-bottom: solid thin rgb(255, 140, 140);
+}
+.info ul{
+    padding-left: 20px;
+}
+.info ul li{
+    color: cornsilk;
+}
+#greenplan{
+    max-width: 640px;
+    margin: auto;
+    background-color: rgb(129, 100, 76);
+    border-radius: 20px;
+    padding: 20px 300px 20px 20px;
+    margin-bottom: 50px;
+    background-image: url(images/greenplanet.png);
+    background-size: 50%;
+    background-repeat:no-repeat;
+    background-position: 130% center;
+    color: white;
+}
+
+
+
+.tai p{
+    font-size: 50px;
+    color: rgb(153, 100, 22);
+}
+.tai {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tai1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: center;
+}
+
+.tai2 {
+    padding-left: 1em; 
+    padding-right: 1em;
+    margin-bottom: 20px;
+    padding: center;
+}
+ .aa p{
+    font-size: 23px;
+    margin-top: 100px;
+}
+
+
+.map{
+    margin-bottom: 70%;
+    margin-left: 20%;
+}
+
+
+.content2{
+    text-align: center;
+    color: white;
+}
+.content2 h3{
+    color: rgb(133, 90, 34);
+}
+.content2 p {
+    color: rgb(168, 140, 88);
+}
+.conimg{
+    /* overflow: hidden; */
+}
+.conimg img:hover{
+    transform: scale(1.12);
+}
+
+@media (max-width:200px){
+    .bg-text {
+        font-size: 12px;
+    }
+}
